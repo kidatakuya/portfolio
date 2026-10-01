@@ -23,7 +23,7 @@ export const Header: React.FC<HeaderProps> = ({
         >
           {personalInfo.name}{" "}
           <span className="text-zinc-500 font-mono text-xs font-normal">
-            / エンドエンジニア
+            / フロントエンドエンジニア
           </span>
         </a>
 
