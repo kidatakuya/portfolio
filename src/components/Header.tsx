@@ -1,24 +1,30 @@
-import React from 'react';
-import { Settings, ArrowUpRight, Menu, X } from 'lucide-react';
-import { PersonalInfo } from '../types/portfolio';
+import React from "react";
+import { Settings, ArrowUpRight, Menu, X } from "lucide-react";
+import { PersonalInfo } from "../types/portfolio";
 
 interface HeaderProps {
   personalInfo: PersonalInfo;
   onOpenConfig: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ personalInfo, onOpenConfig }) => {
+export const Header: React.FC<HeaderProps> = ({
+  personalInfo,
+  onOpenConfig,
+}) => {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
   return (
     <header className="sticky top-0 z-40 w-full border-b border-zinc-800/80 bg-[#09090b]/90 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Zone 1: Single text element wordmark (Top Bar Contract) */}
-        <a 
-          href="#" 
+        <a
+          href="#"
           className="text-base font-semibold tracking-tight text-zinc-100 hover:text-white transition-colors"
         >
-          {personalInfo.name} <span className="text-zinc-500 font-mono text-xs font-normal">/ フロントエンドエンジニア</span>
+          {personalInfo.name}{" "}
+          <span className="text-zinc-500 font-mono text-xs font-normal">
+            / エンドエンジニア
+          </span>
         </a>
 
         {/* Zone 2: 4-6 clean text navigation links */}
@@ -26,7 +32,10 @@ export const Header: React.FC<HeaderProps> = ({ personalInfo, onOpenConfig }) =>
           <a href="#works" className="hover:text-zinc-100 transition-colors">
             制作実績
           </a>
-          <a href="#architecture" className="hover:text-zinc-100 transition-colors">
+          <a
+            href="#architecture"
+            className="hover:text-zinc-100 transition-colors"
+          >
             設計指針
           </a>
           <a href="#lab" className="hover:text-zinc-100 transition-colors">
@@ -35,7 +44,10 @@ export const Header: React.FC<HeaderProps> = ({ personalInfo, onOpenConfig }) =>
           <a href="#skills" className="hover:text-zinc-100 transition-colors">
             技術スタック
           </a>
-          <a href="#experience" className="hover:text-zinc-100 transition-colors">
+          <a
+            href="#experience"
+            className="hover:text-zinc-100 transition-colors"
+          >
             職務経歴
           </a>
         </nav>
@@ -65,7 +77,11 @@ export const Header: React.FC<HeaderProps> = ({ personalInfo, onOpenConfig }) =>
             className="md:hidden p-1.5 text-zinc-400 hover:text-white"
             aria-label="ナビゲーションメニューを開閉"
           >
-            {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {mobileMenuOpen ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
           </button>
         </div>
       </div>
