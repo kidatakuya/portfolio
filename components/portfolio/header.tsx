@@ -8,13 +8,13 @@ export function Header() {
         <Link
           href="/"
           className="flex items-center gap-3"
-          aria-label="R. Takahashi トップへ"
+          aria-label="木田 匠哉 トップへ"
         >
           <span className="flex size-8 items-center justify-center rounded-[3px] bg-cyan font-mono text-[11px] font-bold text-base">
-            RT
+            TK
           </span>
           <span className="flex flex-col leading-tight">
-            <span className="text-[13px] font-bold text-ink">R. Kida</span>
+            <span className="text-[13px] font-bold text-ink">Takuya Kida</span>
             <span className="font-mono text-[10px] tracking-[0.1em] text-dim">
               {" "}
               NARA / JST

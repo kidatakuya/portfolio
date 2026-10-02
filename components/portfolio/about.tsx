@@ -2,21 +2,22 @@ import Image from "next/image";
 import { SectionLabel } from "./section-label";
 
 const STACK = [
-  "HTML",
-  "CSS / Sass",
+  "HTML5",
+  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Jest",
-  "Figma",
-  "GitHub Actions",
+  "Nuxt.js",
+  "Astro",
+  "Tailwind CSS",
+  "Material UI",
 ];
 
 const PROFILE = [
-  { key: "BASE", value: "Tokyo, Japan" },
-  { key: "FOCUS", value: "UI Architecture / DX" },
-  { key: "WORK STYLE", value: "Remote / Hybrid" },
+  { key: "FOCUS", value: "React / Next.js / TypeScript" },
+  { key: "RENDERING", value: "CSR / SSR / Server Components" },
+  { key: "UI", value: "Tailwind CSS / Material UI" },
 ];
 
 const PRINCIPLES = [
@@ -69,11 +70,10 @@ export function About() {
 
           <div>
             <p className="text-[18px] font-medium leading-[1.8] text-ink">
-              Web制作からキャリアを始め、現在はTypeScript /
-              Reactを中心に、業務アプリケーションやデザインシステムの開発に取り組んでいます。
+              React・Next.js・TypeScriptを用いたWebアプリケーションやWebサイトのフロントエンド開発を担当しています。
             </p>
             <p className="mt-6 text-[13px] leading-[2] text-sub">
-              UIの見た目だけでなく、アクセシビリティ、表示速度、変更しやすさまでを同じ設計課題として捉えます。デザイナーやバックエンドエンジニアとの対話を大切にし、曖昧な要件を小さな検証へ分解しながら、チームが継続して改善できる土台をつくります。
+              要件や仕様に応じてCSR・SSR・Server Componentsを使い分け、表示性能とユーザー体験の両立を目指します。プロジェクトのLint・型定義ルールを守った型安全な実装に加え、Tailwind CSSやMaterial UIを活用した再利用しやすいUI設計にも取り組んでいます。Vanilla JavaScript中心の開発からモダンなReact・Next.jsの開発へ移行し、座席表の描画負荷改善や低スペック端末の不具合調査、技術選定などを経験してきました。
             </p>
             <dl className="mt-8 border-t border-line">
               {PROFILE.map((row) => (
@@ -91,7 +91,7 @@ export function About() {
           <div className="md:col-span-2 lg:col-span-1">
             <div className="flex justify-between font-mono text-[10px] tracking-[0.1em]">
               <h3 className="font-bold text-ink">CORE STACK</h3>
-              <span className="text-dim">12 MODULES</span>
+              <span className="text-dim">{STACK.length} MODULES</span>
             </div>
             <ul className="mt-5 flex flex-wrap gap-2">
               {STACK.map((item) => (

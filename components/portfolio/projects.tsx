@@ -1,110 +1,257 @@
-import { ArrowUpRight, SectionLabel } from './section-label'
+import { SectionLabel } from './section-label'
 
-const PROJECTS = [
+type Project = {
+  title: string
+  period: string
+  tags: string[]
+  description: string
+}
+
+type Employment = {
+  company: string
+  period: string
+  role: string
+  summary: string
+  projects: Project[]
+}
+
+const EMPLOYMENTS: Employment[] = [
   {
-    id: 'P-01',
-    period: '2025.04 — 2026.03',
-    category: 'B2B / OPERATIONS',
-    title: '業務オペレーション管理画面の刷新',
-    tags: ['React', 'TypeScript', 'TanStack Query', 'Storybook'],
+    company: '瓜生製作株式会社',
+    period: '2016.04 — 2018.10',
+    role: '機械加工職',
     summary:
-      '増改築を重ねた管理画面を、利用頻度と業務フローから再構成。段階的な移行を前提に、共通コンポーネントと画面テンプレートを整備しました。',
-    scope: 'フロントエンド設計 / UI実装 / テスト基盤 / コードレビュー',
-    outcome: '主要操作の完了時間を28%短縮。画面追加時の実装工数を約40%削減。',
+      '奈良工場にて約2年半、電動ドリルなどのパワーツール向けアルミ部品の製造に従事。図面の読み取りから加工プログラムの理解、CNC旋盤の操作まで一貫して担当しました。',
+    projects: [
+      {
+        title: 'パワーツール向けアルミ部品のCNC加工・最終仕上げ',
+        period: '2016.04 — 2018.10',
+        tags: ['CNC旋盤', '精密加工', '品質管理'],
+        description:
+          '焼き入れ処理後の最終仕上げ工程を担当。ミクロン単位の精度が求められる部品に対して、緻密な機械操作と効率的な段取り、安全確認を徹底し、不良品の防止と製品の品質担保・安定供給に貢献しました。',
+      },
+    ],
   },
   {
-    id: 'P-02',
-    period: '2024.08 — 2025.03',
-    category: 'DESIGN SYSTEM',
-    title: 'プロダクト横断UI基盤の立ち上げ',
-    tags: ['React', 'CSS Variables', 'Storybook', 'Chromatic'],
+    company: '株式会社トライビート',
+    period: '2023.10 — 2026.09',
+    role: 'フロントエンドエンジニア',
     summary:
-      '3つのWebプロダクトで異なっていたUI実装を棚卸しし、トークン・コンポーネント・ドキュメントを段階的に統合しました。',
-    scope: '技術選定 / コンポーネント実装 / Figma連携 / 導入支援',
-    outcome: '重複実装を削減し、アクセシビリティ監査の基準適合率を72%から96%へ改善。',
+      'React・Next.jsを中心としたWebアプリケーションやサイトの開発・保守を担当。要件に応じてCSR・SSR・Server Componentsを使い分け、TypeScriptのLint・型定義ルールに準拠した実装と、再利用性の高いUI設計に取り組みました。',
+    projects: [
+      {
+        title: '主要Webアプリの開発・保守',
+        period: '2023.10 — 2026.09',
+        tags: ['React', 'Next.js', 'TypeScript', 'useMemo'],
+        description:
+          'CSRを中心に、通信など必要な箇所ではサーバーサイド処理を活用。大量データを扱う座席表画面で、useMemoによる表示ロジックのメモ化を行い、不要な再計算と再レンダリングの負荷を抑えて表示遅延・操作性を改善しました。',
+      },
+      {
+        title: 'LPサイトの制作・更新',
+        period: '2024.04 — 2024.05',
+        tags: ['HTML5', 'CSS', 'JavaScript'],
+        description:
+          '新人エンジニアにHTML構造化、CSS命名規則、画像最適化の方針を共有。特定端末で発生したブラウザクラッシュについて、低スペック端末でのCSSレンダリング負荷によるメモリ圧迫を特定し、スタイルを見直して解消しました。',
+      },
+      {
+        title: '自社コーポレートサイトのリニューアル',
+        period: '2025.06 — 2025.09',
+        tags: ['Nuxt.js', 'TypeScript', 'HTML5', 'CSS'],
+        description:
+          'メンバーとして技術選定から参画。チームの技術要件に合わせてNuxt.jsを選定し、サイトのリニューアルを実施しました。',
+      },
+      {
+        title: 'モビリティショーのLP制作・更新',
+        period: '期間記載なし',
+        tags: ['HTML5', 'CSS', 'JavaScript'],
+        description:
+          'タイトなスケジュールの中でチームと連携して制作を進行し、イベント期間中の更新作業にも対応。イベント運用をトラブルなく遂行しました。',
+      },
+      {
+        title: '航空会社のサービス予約サイト制作',
+        period: '2025.09 — 2026.09',
+        tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+        description:
+          '一部項目をサーバー側で処理する構成を取り入れ、Server Componentsを活用した予約サイトの設計・実装を担当しました。',
+      },
+      {
+        title: 'モビリティショーLPの外部委託対応',
+        period: '2026.02 — 2026.09',
+        tags: ['Astro', 'HTML5', 'CSS', 'JavaScript'],
+        description:
+          '委託先がAstro環境で直接開発できない制約に対し、共通ナビゲーションを独立したJavaScriptモジュールとしてビルドし、レイアウトテンプレートと合わせて提供する方式を提案・構築しました。',
+      },
+    ],
   },
   {
-    id: 'P-03',
-    period: '2023.10 — 2024.07',
-    category: 'MEDIA / PERFORMANCE',
-    title: 'コンテンツサイトの表示速度改善',
-    tags: ['Next.js', 'Web Vitals', 'Cloudflare', 'Playwright'],
+    company: '株式会社電通プロモーションエグゼ',
+    period: '2022.04 — 2023.09',
+    role: 'プログラマー',
     summary:
-      '配信経路・画像・JavaScriptの実行コストを計測し、Core Web Vitalsを指標に優先順位をつけて改善を実施しました。',
-    scope: '計測設計 / Next.js実装 / CDN最適化 / モニタリング',
-    outcome: 'LCPを3.8秒から1.9秒へ改善。検索流入後の直帰率を相対11%低減。',
+      '立ち上げ直後の第一期メンバーとしてテクニカルチームに参画し、大手飲料・食品メーカーなどのLP・商品サイト制作と運用更新を担当。Vanilla JavaScriptによるスクラッチのアニメーション実装、短納期から長期まで複数案件の並行対応、マークアップ品質の維持に取り組みました。',
+    projects: [
+      {
+        title: '大手食品メーカーのLP制作・更新（1ページ）',
+        period: '2022.05 — 2022.11',
+        tags: ['HTML5', 'CSS', 'JavaScript'],
+        description:
+          'LPの制作・更新を担当。デザイナーの要望に合わせ、Vanilla JavaScriptでアニメーションや動的な表現を実装しました。',
+      },
+      {
+        title: '詳細不明案件',
+        period: '2022.06 — 2022.08',
+        tags: [],
+        description: '案件の詳細情報は未記載です。',
+      },
+      {
+        title: 'グルメイベントのLP制作・更新',
+        period: '数日',
+        tags: ['HTML5', 'CSS', 'JavaScript'],
+        description:
+          '短期間の制作・更新案件に対応。複数案件を並行しながら、コーディング品質を保って進行しました。',
+      },
+      {
+        title: '大手飲料メーカーのLP制作',
+        period: '数日',
+        tags: ['HTML5', 'CSS', 'JavaScript'],
+        description:
+          '短納期のLP制作に対応。Vanilla JavaScriptを用いたフロントエンド実装を担当しました。',
+      },
+      {
+        title: '飲料メーカーの商品サイト制作',
+        period: '約1週間',
+        tags: ['HTML5', 'CSS', 'JavaScript'],
+        description:
+          '商品サイトの制作に対応。デザイン要件に沿った実装と表示品質の維持に取り組みました。',
+      },
+      {
+        title: 'イベントLP制作',
+        period: '約1週間',
+        tags: ['HTML5', 'CSS', 'JavaScript'],
+        description:
+          'イベント向けLPを制作。短いスケジュールに合わせて実装を進めました。',
+      },
+      {
+        title: '商社メーカーの仮想サイト制作・更新',
+        period: '約6ヶ月〜1年（時期詳細不明）',
+        tags: ['HTML5', 'CSS', 'JavaScript'],
+        description:
+          '半年以上にわたる可能性のある制作・更新案件を担当。短納期案件と並行しながら継続的に対応しました。',
+      },
+    ],
   },
 ]
 
-const CAPABILITIES = ['要件整理', 'UI ARCHITECTURE', 'ACCESSIBILITY', 'PERFORMANCE', 'TESTING', 'TEAM ENABLEMENT']
+const CAPABILITIES = [
+  'REACT / NEXT.JS',
+  'TYPESCRIPT',
+  'CSR / SSR',
+  'UI IMPLEMENTATION',
+  'PERFORMANCE',
+  'TEAM DEVELOPMENT',
+]
+
+const PROJECT_COUNT = EMPLOYMENTS.reduce(
+  (total, employment) => total + employment.projects.length,
+  0,
+)
 
 export function Projects() {
   return (
     <section id="experience" aria-labelledby="experience-title" className="scroll-mt-24 border-b border-line bg-base">
       <div className="mx-auto max-w-[1200px] px-5 py-20 md:px-10 lg:py-[120px]">
-        <SectionLabel no="02" label="EXPERIENCE / SELECTED PROJECTS" />
+        <SectionLabel no="02" label="EXPERIENCE / CAREER" />
         <div className="mt-5 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <h2
             id="experience-title"
             className="max-w-[720px] text-[30px] font-black leading-[1.35] tracking-[0.02em] md:text-[44px]"
           >
-            事業の前進を支える、実務の設計と実装。
+            会社ごとの経験と、現場で向き合った課題。
           </h2>
           <div className="lg:w-[225px]">
-            <p className="font-mono text-[9px] tracking-[0.1em] text-dim">SELECTED ENGAGEMENTS</p>
-            <p className="mt-2 font-mono text-[26px] font-medium text-ink">03 PROJECTS</p>
-            <p className="mt-2 text-[10px] text-dim">守秘義務に配慮した架空のサンプル実績です。</p>
+            <p className="font-mono text-[9px] tracking-[0.1em] text-dim">CAREER HISTORY</p>
+            <p className="mt-2 font-mono text-[26px] font-medium text-ink">
+              {EMPLOYMENTS.length} COMPANIES
+            </p>
+            <p className="mt-2 text-[10px] text-dim">
+              {PROJECT_COUNT}件の担当案件を掲載しています。
+            </p>
           </div>
         </div>
 
-        <ol className="mt-14 border-t border-line-strong">
-          {PROJECTS.map((p) => (
-            <li
-              key={p.id}
-              className="grid gap-6 border-b border-line-strong py-10 md:grid-cols-[60px_1fr] lg:grid-cols-[72px_1fr_260px_1fr] lg:gap-8"
+        <div className="mt-14 space-y-16">
+          {EMPLOYMENTS.map((employment, employmentIndex) => (
+            <section
+              key={employment.company}
+              aria-labelledby={`company-${employmentIndex}`}
+              className="border-t border-line-strong pt-8"
             >
-              <p className="font-mono text-[11px] font-bold text-cyan">{p.id}</p>
-
-              <div>
-                <p className="flex flex-wrap items-center gap-3 font-mono text-[10px] tracking-[0.06em]">
-                  <span className="text-dim">{p.period}</span>
-                  <span aria-hidden="true" className="h-3 w-px bg-line-strong" />
-                  <span className="text-cyan">{p.category}</span>
+              <div className="grid gap-5 md:grid-cols-[1fr_auto] md:items-end">
+                <div>
+                  <p className="font-mono text-[10px] tracking-[0.1em] text-cyan">
+                    EMPLOYMENT / {String(employmentIndex + 1).padStart(2, '0')}
+                  </p>
+                  <h3
+                    id={`company-${employmentIndex}`}
+                    className="mt-3 text-[24px] font-bold leading-[1.5] text-ink md:text-[30px]"
+                  >
+                    {employment.company}
+                  </h3>
+                  <p className="mt-2 text-[14px] font-medium text-sub">{employment.role}</p>
+                </div>
+                <p className="font-mono text-[11px] tracking-[0.06em] text-dim">
+                  在籍期間：{employment.period}
                 </p>
-                <h3 className="mt-4 text-[20px] font-bold leading-[1.5] text-ink md:text-[22px]">{p.title}</h3>
-                <ul className="mt-4 flex flex-wrap gap-2">
-                  {p.tags.map((t) => (
-                    <li key={t} className="rounded-[2px] bg-panel px-2.5 py-1 font-mono text-[10px] text-sub">
-                      {t}
-                    </li>
-                  ))}
-                </ul>
               </div>
 
-              <p className="text-[13px] leading-[1.9] text-sub md:col-start-2 lg:col-start-auto">{p.summary}</p>
+              <p className="mt-6 max-w-[900px] text-[13px] leading-[1.9] text-sub">
+                {employment.summary}
+              </p>
 
-              <div className="md:col-start-2 lg:col-start-auto">
-                <div className="flex items-start justify-between gap-4">
-                  <div>
-                    <p className="font-mono text-[9px] tracking-[0.1em] text-dim">担当 / SCOPE</p>
-                    <p className="mt-2 text-[12px] text-sub">{p.scope}</p>
-                  </div>
-                  <ArrowUpRight className="size-3 shrink-0 text-dim" />
-                </div>
-                <div className="mt-5 border-l-2 border-cyan pl-4">
-                  <p className="font-mono text-[9px] tracking-[0.1em] text-cyan">成果 / OUTCOME</p>
-                  <p className="mt-2 text-[13px] font-bold leading-[1.75] text-ink">{p.outcome}</p>
-                </div>
-              </div>
-            </li>
+              <ol className="mt-8 divide-y divide-line border-y border-line">
+                {employment.projects.map((project, projectIndex) => (
+                  <li
+                    key={`${employment.company}-${project.title}`}
+                    className="grid gap-3 py-6 md:grid-cols-[52px_1fr_auto] md:items-start md:gap-6"
+                  >
+                    <p className="font-mono text-[10px] font-bold text-cyan">
+                      {String(projectIndex + 1).padStart(2, '0')}
+                    </p>
+                    <div>
+                      <h4 className="text-[16px] font-bold leading-[1.6] text-ink">
+                        {project.title}
+                      </h4>
+                      <p className="mt-2 text-[12px] leading-[1.9] text-sub">
+                        {project.description}
+                      </p>
+                      {project.tags.length > 0 && (
+                        <ul className="mt-3 flex flex-wrap gap-2">
+                          {project.tags.map((tag) => (
+                            <li
+                              key={tag}
+                              className="rounded-[2px] bg-panel px-2.5 py-1 font-mono text-[10px] text-sub"
+                            >
+                              {tag}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                    <p className="font-mono text-[10px] tracking-[0.04em] text-dim md:text-right">
+                      {project.period}
+                    </p>
+                  </li>
+                ))}
+              </ol>
+            </section>
           ))}
-        </ol>
+        </div>
 
         <div className="mt-12 flex flex-wrap items-center justify-between gap-x-8 gap-y-3 font-mono text-[10px] tracking-[0.08em]">
           <span className="text-dim">{'CAPABILITIES //'}</span>
-          {CAPABILITIES.map((c) => (
-            <span key={c} className="text-sub">
-              {c}
+          {CAPABILITIES.map((capability) => (
+            <span key={capability} className="text-sub">
+              {capability}
             </span>
           ))}
         </div>

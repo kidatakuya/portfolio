@@ -10,14 +10,14 @@ export function Footer() {
       <div className="mx-auto flex max-w-[1200px] flex-col gap-8 px-5 py-12 md:flex-row md:items-center md:justify-between md:px-10">
         <Link href="/" className="flex items-center gap-3">
           <span className="flex size-8 items-center justify-center rounded-[3px] bg-cyan font-mono text-[11px] font-bold text-base">
-            RT
+            TK
           </span>
           <span className="flex flex-col leading-tight">
             <span className="text-[13px] font-bold text-ink">
-              高橋 蓮 / Frontend Engineer
+              木田 匠哉 / Frontend Engineer
             </span>
             <span className="font-mono text-[9px] tracking-[0.1em] text-dim">
-              FICTIONAL SAMPLE PORTFOLIO
+              FRONTEND ENGINEER PORTFOLIO
             </span>
           </span>
         </Link>
@@ -41,7 +41,7 @@ export function Footer() {
         </ul>
 
         <p className="font-mono text-[9px] leading-[1.8] tracking-[0.08em] text-dim md:text-right">
-          © 2026 REN TAKAHASHI · SAMPLE
+          © 2026 TAKUYA KIDA
           <br />
           BUILT WITH TYPE / GRID / CURIOSITY
         </p>

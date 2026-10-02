@@ -13,9 +13,9 @@ const CODE_LINES: Token[][] = [
     { text: ";" },
   ],
   [{ text: "  focus: [" }],
-  [{ text: "    " }, { text: '"Design Systems"', tone: "str" }, { text: "," }],
+  [{ text: "    " }, { text: '"React / Next.js"', tone: "str" }, { text: "," }],
   [{ text: "    " }, { text: '"Performance"', tone: "str" }, { text: "," }],
-  [{ text: "    " }, { text: '"Accessible UI"', tone: "str" }],
+  [{ text: "    " }, { text: '"TypeScript"', tone: "str" }],
   [{ text: "  ];" }],
   [{ text: "  ship: " }, { text: "true", tone: "kw" }, { text: ";" }],
   [{ text: "};" }],
@@ -123,7 +123,7 @@ export function Hero() {
           </p>
 
           <p className="mt-5 max-w-[500px] text-[16px] leading-[1.9] text-sub md:text-[17px]">
-            複雑な要件を、速く・使いやすく・育てやすいインターフェースへ。プロダクトの意図を読み解き、設計から実装まで一貫して形にします。
+            React・Next.jsを用いたWebアプリケーション開発を中心に、要件に応じたレンダリング設計、型安全な実装、パフォーマンス改善に取り組んでいます。
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -144,10 +144,6 @@ export function Hero() {
               <ArrowUpRight />
             </a>
           </div>
-
-          <p className="mt-8 text-[11px] text-dim">
-            ※ 掲載内容はポートフォリオ用の架空サンプルです
-          </p>
         </div>
 
         <CodeWindow />

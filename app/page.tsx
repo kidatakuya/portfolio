@@ -6,6 +6,8 @@ import { Hero } from '@/components/portfolio/hero'
 import { Projects } from '@/components/portfolio/projects'
 import { Works } from '@/components/portfolio/works'
 
+export const dynamic = 'force-static'
+
 export default function Page() {
   return (
     <>
