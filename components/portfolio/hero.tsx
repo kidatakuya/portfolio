@@ -1,36 +1,40 @@
-import Link from 'next/link'
-import { GITHUB_URL } from '@/lib/site'
-import { ArrowUpRight } from './section-label'
+import Link from "next/link";
+import { GITHUB_URL } from "@/lib/site";
+import { ArrowUpRight } from "./section-label";
 
-type Token = { text: string; tone?: 'kw' | 'str' | 'cm' | 'plain' }
+type Token = { text: string; tone?: "kw" | "str" | "cm" | "plain" };
 
 const CODE_LINES: Token[][] = [
-  [{ text: 'type', tone: 'kw' }, { text: ' Engineer = {' }],
-  [{ text: '  name: ' }, { text: '"高橋 蓮"', tone: 'str' }, { text: ';' }],
-  [{ text: '  role: ' }, { text: '"Frontend Engineer"', tone: 'str' }, { text: ';' }],
-  [{ text: '  focus: [' }],
-  [{ text: '    ' }, { text: '"Design Systems"', tone: 'str' }, { text: ',' }],
-  [{ text: '    ' }, { text: '"Performance"', tone: 'str' }, { text: ',' }],
-  [{ text: '    ' }, { text: '"Accessible UI"', tone: 'str' }],
-  [{ text: '  ];' }],
-  [{ text: '  ship: ' }, { text: 'true', tone: 'kw' }, { text: ';' }],
-  [{ text: '};' }],
-  [{ text: '// ideas → maintainable interfaces', tone: 'cm' }],
-]
+  [{ text: "type", tone: "kw" }, { text: " Engineer = {" }],
+  [{ text: "  name: " }, { text: '"木田 匠哉"', tone: "str" }, { text: ";" }],
+  [
+    { text: "  role: " },
+    { text: '"Frontend Engineer"', tone: "str" },
+    { text: ";" },
+  ],
+  [{ text: "  focus: [" }],
+  [{ text: "    " }, { text: '"Design Systems"', tone: "str" }, { text: "," }],
+  [{ text: "    " }, { text: '"Performance"', tone: "str" }, { text: "," }],
+  [{ text: "    " }, { text: '"Accessible UI"', tone: "str" }],
+  [{ text: "  ];" }],
+  [{ text: "  ship: " }, { text: "true", tone: "kw" }, { text: ";" }],
+  [{ text: "};" }],
+  [{ text: "// ideas → maintainable interfaces", tone: "cm" }],
+];
 
-const toneClass: Record<NonNullable<Token['tone']>, string> = {
-  kw: 'text-cyan',
-  str: 'text-[#e9d9a6]',
-  cm: 'text-dim',
-  plain: 'text-ink',
-}
+const toneClass: Record<NonNullable<Token["tone"]>, string> = {
+  kw: "text-cyan",
+  str: "text-[#e9d9a6]",
+  cm: "text-dim",
+  plain: "text-ink",
+};
 
 function CodeWindow() {
   return (
     <div className="w-full">
       <div className="mb-3 flex justify-between font-mono text-[10px] tracking-[0.08em] text-dim">
         <span>FIG. 001 / SOURCE PROFILE</span>
-        <span className="hidden sm:inline">{'35.6762° N, 139.6503° E'}</span>
+        <span className="hidden sm:inline">{"35.6762° N, 139.6503° E"}</span>
       </div>
 
       <div className="overflow-hidden rounded-md border border-line-strong bg-panel">
@@ -56,12 +60,15 @@ function CodeWindow() {
           <code>
             {CODE_LINES.map((line, i) => (
               <span key={i} className="flex">
-                <span aria-hidden="true" className="w-10 shrink-0 select-none text-dim">
-                  {String(i + 1).padStart(2, '0')}
+                <span
+                  aria-hidden="true"
+                  className="w-10 shrink-0 select-none text-dim"
+                >
+                  {String(i + 1).padStart(2, "0")}
                 </span>
                 <span>
                   {line.map((token, j) => (
-                    <span key={j} className={toneClass[token.tone ?? 'plain']}>
+                    <span key={j} className={toneClass[token.tone ?? "plain"]}>
                       {token.text}
                     </span>
                   ))}
@@ -72,7 +79,7 @@ function CodeWindow() {
         </pre>
 
         <div className="flex items-center justify-between bg-cyan px-4 py-1.5 font-mono text-[10px] text-base">
-          <span>{'⎇ main*'}</span>
+          <span>{"⎇ main*"}</span>
           <span>TypeScript React · UTF-8 · Ln 11, Col 29</span>
         </div>
       </div>
@@ -86,12 +93,15 @@ function CodeWindow() {
         </span>
       </div>
     </div>
-  )
+  );
 }
 
 export function Hero() {
   return (
-    <section aria-labelledby="hero-title" className="border-b border-line bg-base">
+    <section
+      aria-labelledby="hero-title"
+      className="border-b border-line bg-base"
+    >
       <div className="mx-auto grid max-w-[1200px] items-center gap-14 px-5 py-20 md:px-10 lg:grid-cols-[1fr_440px] lg:gap-16 lg:py-[140px]">
         <div>
           <p className="inline-flex items-center gap-2 rounded-[3px] border border-cyan/30 bg-cyan-deep px-2.5 py-1 font-mono text-[10px] tracking-[0.1em] text-cyan">
@@ -101,10 +111,10 @@ export function Hero() {
 
           <h1 id="hero-title" className="mt-6">
             <span className="block text-[52px] font-black leading-[1.1] tracking-[0.04em] text-ink md:text-[72px]">
-              高橋 蓮
+              木田 匠哉
             </span>
             <span className="block text-[36px] font-black leading-[1.1] tracking-[0.01em] text-[#6b7680] md:text-[56px]">
-              REN TAKAHASHI
+              TAKUYA KIDA
             </span>
           </h1>
 
@@ -135,11 +145,13 @@ export function Hero() {
             </a>
           </div>
 
-          <p className="mt-8 text-[11px] text-dim">※ 掲載内容はポートフォリオ用の架空サンプルです</p>
+          <p className="mt-8 text-[11px] text-dim">
+            ※ 掲載内容はポートフォリオ用の架空サンプルです
+          </p>
         </div>
 
         <CodeWindow />
       </div>
     </section>
-  )
+  );
 }

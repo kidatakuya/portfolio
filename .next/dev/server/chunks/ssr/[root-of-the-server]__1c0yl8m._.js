@@ -100,37 +100,34 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$portfolio$2f$s
 ;
 ;
 const STACK = [
-    'HTML',
-    'CSS / Sass',
-    'JavaScript',
-    'TypeScript',
-    'React',
-    'Next.js',
-    'Vite',
-    'Storybook',
-    'Jest',
-    'Playwright',
-    'Figma',
-    'GitHub Actions'
+    "HTML",
+    "CSS / Sass",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Jest",
+    "Figma",
+    "GitHub Actions"
 ];
 const PROFILE = [
     {
-        key: 'BASE',
-        value: 'Tokyo, Japan'
+        key: "BASE",
+        value: "Tokyo, Japan"
     },
     {
-        key: 'FOCUS',
-        value: 'UI Architecture / DX'
+        key: "FOCUS",
+        value: "UI Architecture / DX"
     },
     {
-        key: 'WORK STYLE',
-        value: 'Remote / Hybrid'
+        key: "WORK STYLE",
+        value: "Remote / Hybrid"
     }
 ];
 const PRINCIPLES = [
-    '意図をコードに残す',
-    '小さく検証し、早く共有する',
-    '誰かの「使えない」を見逃さない'
+    "意図をコードに残す",
+    "小さく検証し、早く共有する",
+    "誰かの「使えない」を見逃さない"
 ];
 function About() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -145,7 +142,7 @@ function About() {
                     label: "ABOUT / PROFILE"
                 }, void 0, false, {
                     fileName: "[project]/components/portfolio/about.tsx",
-                    lineNumber: 31,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -157,7 +154,7 @@ function About() {
                             children: "実装の前に、問いを整える。"
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio/about.tsx",
-                            lineNumber: 33,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -165,13 +162,13 @@ function About() {
                             children: "PROFILE.JSON / UPDATED 2026.10"
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio/about.tsx",
-                            lineNumber: 36,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/portfolio/about.tsx",
-                    lineNumber: 32,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -188,7 +185,7 @@ function About() {
                                     className: "aspect-[300/330] h-auto w-full object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/about.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("figcaption", {
@@ -198,7 +195,7 @@ function About() {
                                             children: "DESK / ITERATION 27"
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio/about.tsx",
-                                            lineNumber: 49,
+                                            lineNumber: 59,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -209,26 +206,26 @@ function About() {
                                                     className: "size-1.5 rounded-full bg-cyan"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/portfolio/about.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 61,
                                                     columnNumber: 17
                                                 }, this),
                                                 "REC"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/portfolio/about.tsx",
-                                            lineNumber: 50,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio/about.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio/about.tsx",
-                            lineNumber: 40,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -238,7 +235,7 @@ function About() {
                                     children: "Web制作からキャリアを始め、現在はTypeScript / Reactを中心に、業務アプリケーションやデザインシステムの開発に取り組んでいます。"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/about.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 71,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -246,7 +243,7 @@ function About() {
                                     children: "UIの見た目だけでなく、アクセシビリティ、表示速度、変更しやすさまでを同じ設計課題として捉えます。デザイナーやバックエンドエンジニアとの対話を大切にし、曖昧な要件を小さな検証へ分解しながら、チームが継続して改善できる土台をつくります。"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/about.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dl", {
@@ -259,7 +256,7 @@ function About() {
                                                     children: row.key
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/portfolio/about.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 84,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
@@ -267,24 +264,24 @@ function About() {
                                                     children: row.value
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/portfolio/about.tsx",
-                                                    lineNumber: 68,
+                                                    lineNumber: 85,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, row.key, true, {
                                             fileName: "[project]/components/portfolio/about.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/about.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 78,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio/about.tsx",
-                            lineNumber: 57,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -298,7 +295,7 @@ function About() {
                                             children: "CORE STACK"
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio/about.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 93,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -306,13 +303,13 @@ function About() {
                                             children: "12 MODULES"
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio/about.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio/about.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -322,12 +319,12 @@ function About() {
                                             children: item
                                         }, item, false, {
                                             fileName: "[project]/components/portfolio/about.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 98,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/about.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 96,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -335,10 +332,10 @@ function About() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "font-mono text-[10px] tracking-[0.1em] text-cyan",
-                                            children: '// WORKING PRINCIPLES'
+                                            children: "// WORKING PRINCIPLES"
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio/about.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 108,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -351,48 +348,48 @@ function About() {
                                                             className: "size-1.5 bg-cyan"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/portfolio/about.tsx",
-                                                            lineNumber: 95,
+                                                            lineNumber: 117,
                                                             columnNumber: 21
                                                         }, this),
                                                         p
                                                     ]
                                                 }, p, true, {
                                                     fileName: "[project]/components/portfolio/about.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 113,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio/about.tsx",
-                                            lineNumber: 92,
+                                            lineNumber: 111,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio/about.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 107,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio/about.tsx",
-                            lineNumber: 74,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/portfolio/about.tsx",
-                    lineNumber: 39,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/portfolio/about.tsx",
-            lineNumber: 30,
+            lineNumber: 35,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/portfolio/about.tsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
@@ -557,19 +554,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$portfolio$2f$s
 ;
 const SOCIALS = [
     {
-        label: 'GitHub',
+        label: "GitHub",
         href: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["GITHUB_URL"],
         accent: true
-    },
-    {
-        label: 'LinkedIn',
-        href: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["LINKEDIN_URL"],
-        accent: false
-    },
-    {
-        label: 'Zenn',
-        href: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ZENN_URL"],
-        accent: false
     }
 ];
 function Footer() {
@@ -587,7 +574,7 @@ function Footer() {
                             children: "RT"
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio/footer.tsx",
-                            lineNumber: 16,
+                            lineNumber: 12,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -598,7 +585,7 @@ function Footer() {
                                     children: "高橋 蓮 / Frontend Engineer"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/footer.tsx",
-                                    lineNumber: 20,
+                                    lineNumber: 16,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -606,19 +593,19 @@ function Footer() {
                                     children: "FICTIONAL SAMPLE PORTFOLIO"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/footer.tsx",
-                                    lineNumber: 21,
+                                    lineNumber: 19,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio/footer.tsx",
-                            lineNumber: 19,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/portfolio/footer.tsx",
-                    lineNumber: 15,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -628,7 +615,7 @@ function Footer() {
                                 href: s.href,
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: `inline-flex items-center gap-1.5 font-mono text-[12px] hover:underline ${s.accent ? 'text-cyan' : 'text-sub'}`,
+                                className: `inline-flex items-center gap-1.5 font-mono text-[12px] hover:underline ${s.accent ? "text-cyan" : "text-sub"}`,
                                 children: [
                                     s.label,
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$portfolio$2f$section$2d$label$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ArrowUpRight"], {}, void 0, false, {
@@ -671,12 +658,12 @@ function Footer() {
             ]
         }, void 0, true, {
             fileName: "[project]/components/portfolio/footer.tsx",
-            lineNumber: 14,
+            lineNumber: 10,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/portfolio/footer.tsx",
-        lineNumber: 13,
+        lineNumber: 9,
         columnNumber: 5
     }, this);
 }
@@ -711,7 +698,7 @@ function Header() {
                                 children: "RT"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio/header.tsx",
-                                lineNumber: 9,
+                                lineNumber: 13,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -719,24 +706,27 @@ function Header() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-[13px] font-bold text-ink",
-                                        children: "R. Takahashi"
+                                        children: "R. Kida"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio/header.tsx",
-                                        lineNumber: 13,
+                                        lineNumber: 17,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "font-mono text-[10px] tracking-[0.1em] text-dim",
-                                        children: "TOKYO / JST"
-                                    }, void 0, false, {
+                                        children: [
+                                            " ",
+                                            "NARA / JST"
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/components/portfolio/header.tsx",
-                                        lineNumber: 14,
+                                        lineNumber: 18,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio/header.tsx",
-                                lineNumber: 12,
+                                lineNumber: 16,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -763,7 +753,7 @@ function Header() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/portfolio/header.tsx",
-                                                lineNumber: 26,
+                                                lineNumber: 33,
                                                 columnNumber: 19
                                             }, this),
                                             " ",
@@ -771,22 +761,22 @@ function Header() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio/header.tsx",
-                                        lineNumber: 22,
+                                        lineNumber: 29,
                                         columnNumber: 17
                                     }, this)
                                 }, item.href, false, {
                                     fileName: "[project]/components/portfolio/header.tsx",
-                                    lineNumber: 21,
+                                    lineNumber: 28,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio/header.tsx",
-                            lineNumber: 19,
+                            lineNumber: 26,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio/header.tsx",
-                        lineNumber: 18,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -797,14 +787,14 @@ function Header() {
                                 className: "size-1.5 rounded-full bg-cyan"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio/header.tsx",
-                                lineNumber: 34,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, this),
                             "AVAILABLE FOR PROJECTS"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio/header.tsx",
-                        lineNumber: 33,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, this)
                 ]
@@ -831,7 +821,7 @@ function Header() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/portfolio/header.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 57,
                                         columnNumber: 17
                                     }, this),
                                     " ",
@@ -839,22 +829,22 @@ function Header() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio/header.tsx",
-                                lineNumber: 43,
+                                lineNumber: 53,
                                 columnNumber: 15
                             }, this)
                         }, item.href, false, {
                             fileName: "[project]/components/portfolio/header.tsx",
-                            lineNumber: 42,
+                            lineNumber: 52,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/portfolio/header.tsx",
-                    lineNumber: 40,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/portfolio/header.tsx",
-                lineNumber: 39,
+                lineNumber: 46,
                 columnNumber: 7
             }, this)
         ]
@@ -883,109 +873,109 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$portfolio$2f$s
 const CODE_LINES = [
     [
         {
-            text: 'type',
-            tone: 'kw'
+            text: "type",
+            tone: "kw"
         },
         {
-            text: ' Engineer = {'
+            text: " Engineer = {"
         }
     ],
     [
         {
-            text: '  name: '
+            text: "  name: "
         },
         {
-            text: '"高橋 蓮"',
-            tone: 'str'
+            text: '"木田 匠哉"',
+            tone: "str"
         },
         {
-            text: ';'
+            text: ";"
         }
     ],
     [
         {
-            text: '  role: '
+            text: "  role: "
         },
         {
             text: '"Frontend Engineer"',
-            tone: 'str'
+            tone: "str"
         },
         {
-            text: ';'
+            text: ";"
         }
     ],
     [
         {
-            text: '  focus: ['
+            text: "  focus: ["
         }
     ],
     [
         {
-            text: '    '
+            text: "    "
         },
         {
             text: '"Design Systems"',
-            tone: 'str'
+            tone: "str"
         },
         {
-            text: ','
+            text: ","
         }
     ],
     [
         {
-            text: '    '
+            text: "    "
         },
         {
             text: '"Performance"',
-            tone: 'str'
+            tone: "str"
         },
         {
-            text: ','
+            text: ","
         }
     ],
     [
         {
-            text: '    '
+            text: "    "
         },
         {
             text: '"Accessible UI"',
-            tone: 'str'
+            tone: "str"
         }
     ],
     [
         {
-            text: '  ];'
+            text: "  ];"
         }
     ],
     [
         {
-            text: '  ship: '
+            text: "  ship: "
         },
         {
-            text: 'true',
-            tone: 'kw'
+            text: "true",
+            tone: "kw"
         },
         {
-            text: ';'
+            text: ";"
         }
     ],
     [
         {
-            text: '};'
+            text: "};"
         }
     ],
     [
         {
-            text: '// ideas → maintainable interfaces',
-            tone: 'cm'
+            text: "// ideas → maintainable interfaces",
+            tone: "cm"
         }
     ]
 ];
 const toneClass = {
-    kw: 'text-cyan',
-    str: 'text-[#e9d9a6]',
-    cm: 'text-dim',
-    plain: 'text-ink'
+    kw: "text-cyan",
+    str: "text-[#e9d9a6]",
+    cm: "text-dim",
+    plain: "text-ink"
 };
 function CodeWindow() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -998,21 +988,21 @@ function CodeWindow() {
                         children: "FIG. 001 / SOURCE PROFILE"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio/hero.tsx",
-                        lineNumber: 32,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "hidden sm:inline",
-                        children: '35.6762° N, 139.6503° E'
+                        children: "35.6762° N, 139.6503° E"
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio/hero.tsx",
-                        lineNumber: 33,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio/hero.tsx",
-                lineNumber: 31,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1029,27 +1019,27 @@ function CodeWindow() {
                                         className: "size-2 rounded-full bg-line-strong"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio/hero.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 43,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "size-2 rounded-full bg-line-strong"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio/hero.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "size-2 rounded-full bg-line-strong"
                                     }, void 0, false, {
                                         fileName: "[project]/components/portfolio/hero.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/portfolio/hero.tsx",
-                                lineNumber: 38,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1057,13 +1047,13 @@ function CodeWindow() {
                                 children: "portfolio.local/components/intro.tsx"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio/hero.tsx",
-                                lineNumber: 43,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio/hero.tsx",
-                        lineNumber: 37,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1076,19 +1066,19 @@ function CodeWindow() {
                                     children: "TS"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/hero.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this),
                                 "intro.tsx"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio/hero.tsx",
-                            lineNumber: 49,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio/hero.tsx",
-                        lineNumber: 48,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
@@ -1100,69 +1090,69 @@ function CodeWindow() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             "aria-hidden": "true",
                                             className: "w-10 shrink-0 select-none text-dim",
-                                            children: String(i + 1).padStart(2, '0')
+                                            children: String(i + 1).padStart(2, "0")
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio/hero.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 63,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: line.map((token, j)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: toneClass[token.tone ?? 'plain'],
+                                                    className: toneClass[token.tone ?? "plain"],
                                                     children: token.text
                                                 }, j, false, {
                                                     fileName: "[project]/components/portfolio/hero.tsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 71,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio/hero.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 69,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/components/portfolio/hero.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 62,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio/hero.tsx",
-                            lineNumber: 56,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/portfolio/hero.tsx",
-                        lineNumber: 55,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex items-center justify-between bg-cyan px-4 py-1.5 font-mono text-[10px] text-base",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                children: '⎇ main*'
+                                children: "⎇ main*"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio/hero.tsx",
-                                lineNumber: 75,
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "TypeScript React · UTF-8 · Ln 11, Col 29"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio/hero.tsx",
-                                lineNumber: 76,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio/hero.tsx",
-                        lineNumber: 74,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio/hero.tsx",
-                lineNumber: 36,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1176,13 +1166,13 @@ function CodeWindow() {
                                 children: "PASSING"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio/hero.tsx",
-                                lineNumber: 82,
+                                lineNumber: 89,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio/hero.tsx",
-                        lineNumber: 81,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1194,25 +1184,25 @@ function CodeWindow() {
                                 children: "↓"
                             }, void 0, false, {
                                 fileName: "[project]/components/portfolio/hero.tsx",
-                                lineNumber: 85,
+                                lineNumber: 92,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/portfolio/hero.tsx",
-                        lineNumber: 84,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/portfolio/hero.tsx",
-                lineNumber: 80,
+                lineNumber: 87,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/portfolio/hero.tsx",
-        lineNumber: 30,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }
@@ -1233,14 +1223,14 @@ function Hero() {
                                     className: "h-3 w-[3px] bg-cyan"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/hero.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, this),
                                 "FRONTEND_ENGINEER.TSX"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio/hero.tsx",
-                            lineNumber: 97,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1249,24 +1239,24 @@ function Hero() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "block text-[52px] font-black leading-[1.1] tracking-[0.04em] text-ink md:text-[72px]",
-                                    children: "高橋 蓮"
+                                    children: "木田 匠哉"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/hero.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 113,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "block text-[36px] font-black leading-[1.1] tracking-[0.01em] text-[#6b7680] md:text-[56px]",
-                                    children: "REN TAKAHASHI"
+                                    children: "TAKUYA KIDA"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio/hero.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio/hero.tsx",
-                            lineNumber: 102,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1274,7 +1264,7 @@ function Hero() {
                             children: "フロントエンドエンジニア"
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio/hero.tsx",
-                            lineNumber: 111,
+                            lineNumber: 121,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1282,7 +1272,7 @@ function Hero() {
                             children: "複雑な要件を、速く・使いやすく・育てやすいインターフェースへ。プロダクトの意図を読み解き、設計から実装まで一貫して形にします。"
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio/hero.tsx",
-                            lineNumber: 115,
+                            lineNumber: 125,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1295,13 +1285,13 @@ function Hero() {
                                         "実務実績を見る",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$portfolio$2f$section$2d$label$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ArrowUpRight"], {}, void 0, false, {
                                             fileName: "[project]/components/portfolio/hero.tsx",
-                                            lineNumber: 125,
+                                            lineNumber: 135,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio/hero.tsx",
-                                    lineNumber: 120,
+                                    lineNumber: 130,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1313,19 +1303,19 @@ function Hero() {
                                         "GitHubを開く",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$portfolio$2f$section$2d$label$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ArrowUpRight"], {}, void 0, false, {
                                             fileName: "[project]/components/portfolio/hero.tsx",
-                                            lineNumber: 134,
+                                            lineNumber: 144,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio/hero.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 137,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio/hero.tsx",
-                            lineNumber: 119,
+                            lineNumber: 129,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1333,29 +1323,29 @@ function Hero() {
                             children: "※ 掲載内容はポートフォリオ用の架空サンプルです"
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio/hero.tsx",
-                            lineNumber: 138,
+                            lineNumber: 148,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/portfolio/hero.tsx",
-                    lineNumber: 96,
+                    lineNumber: 106,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$3$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_$40$types$2b$node$40$24$2e$10$2e$4_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(CodeWindow, {}, void 0, false, {
                     fileName: "[project]/components/portfolio/hero.tsx",
-                    lineNumber: 141,
+                    lineNumber: 153,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/portfolio/hero.tsx",
-            lineNumber: 95,
+            lineNumber: 105,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/portfolio/hero.tsx",
-        lineNumber: 94,
+        lineNumber: 101,
         columnNumber: 5
     }, this);
 }
@@ -2167,37 +2157,31 @@ __turbopack_context__.s([
     ()=>EMAIL,
     "GITHUB_URL",
     ()=>GITHUB_URL,
-    "LINKEDIN_URL",
-    ()=>LINKEDIN_URL,
     "NAV_ITEMS",
-    ()=>NAV_ITEMS,
-    "ZENN_URL",
-    ()=>ZENN_URL
+    ()=>NAV_ITEMS
 ]);
-const GITHUB_URL = 'https://github.com/';
-const LINKEDIN_URL = 'https://www.linkedin.com/';
-const ZENN_URL = 'https://zenn.dev/';
-const EMAIL = 'ren.takahashi@example.com';
+const GITHUB_URL = "https://github.com/kidatakuya";
+const EMAIL = "kida.takuya.1234@gmail.com";
 const NAV_ITEMS = [
     {
-        no: '01',
-        label: 'About',
-        href: '#about'
+        no: "01",
+        label: "About",
+        href: "#about"
     },
     {
-        no: '02',
-        label: 'Experience',
-        href: '#experience'
+        no: "02",
+        label: "Experience",
+        href: "#experience"
     },
     {
-        no: '03',
-        label: 'Works',
-        href: '#works'
+        no: "03",
+        label: "Works",
+        href: "#works"
     },
     {
-        no: '04',
-        label: 'Contact',
-        href: '#contact'
+        no: "04",
+        label: "Contact",
+        href: "#contact"
     }
 ];
 }),

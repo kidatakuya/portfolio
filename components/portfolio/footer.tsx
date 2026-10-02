@@ -1,12 +1,8 @@
-import Link from 'next/link'
-import { GITHUB_URL, LINKEDIN_URL, ZENN_URL } from '@/lib/site'
-import { ArrowUpRight } from './section-label'
+import Link from "next/link";
+import { GITHUB_URL } from "@/lib/site";
+import { ArrowUpRight } from "./section-label";
 
-const SOCIALS = [
-  { label: 'GitHub', href: GITHUB_URL, accent: true },
-  { label: 'LinkedIn', href: LINKEDIN_URL, accent: false },
-  { label: 'Zenn', href: ZENN_URL, accent: false },
-]
+const SOCIALS = [{ label: "GitHub", href: GITHUB_URL, accent: true }];
 
 export function Footer() {
   return (
@@ -17,8 +13,12 @@ export function Footer() {
             RT
           </span>
           <span className="flex flex-col leading-tight">
-            <span className="text-[13px] font-bold text-ink">高橋 蓮 / Frontend Engineer</span>
-            <span className="font-mono text-[9px] tracking-[0.1em] text-dim">FICTIONAL SAMPLE PORTFOLIO</span>
+            <span className="text-[13px] font-bold text-ink">
+              高橋 蓮 / Frontend Engineer
+            </span>
+            <span className="font-mono text-[9px] tracking-[0.1em] text-dim">
+              FICTIONAL SAMPLE PORTFOLIO
+            </span>
           </span>
         </Link>
 
@@ -30,7 +30,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`inline-flex items-center gap-1.5 font-mono text-[12px] hover:underline ${
-                  s.accent ? 'text-cyan' : 'text-sub'
+                  s.accent ? "text-cyan" : "text-sub"
                 }`}
               >
                 {s.label}
@@ -47,5 +47,5 @@ export function Footer() {
         </p>
       </div>
     </footer>
-  )
+  );
 }
