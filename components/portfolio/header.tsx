@@ -8,7 +8,7 @@ export function Header() {
         <Link
           href="/"
           className="flex items-center gap-3"
-          aria-label="木田 匠哉 トップへ"
+          aria-label="木田 拓也 トップへ"
         >
           <span className="flex size-8 items-center justify-center rounded-[3px] bg-cyan font-mono text-[11px] font-bold text-base">
             TK
