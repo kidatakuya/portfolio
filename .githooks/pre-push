@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+printf '%s\n' 'Running production build before push...'
+pnpm run build
