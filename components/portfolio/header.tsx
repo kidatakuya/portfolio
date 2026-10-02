@@ -22,7 +22,10 @@ export function Header() {
           </span>
         </Link>
 
-        <nav aria-label="メインナビゲーション" className="hidden md:block">
+        <nav
+          aria-label="メインナビゲーション"
+          className="hidden md:block max-w-[460px]"
+        >
           <ul className="flex items-center gap-8">
             {NAV_ITEMS.map((item) => (
               <li key={item.href}>
@@ -37,17 +40,14 @@ export function Header() {
           </ul>
         </nav>
 
-        <p className="flex items-center gap-2 font-mono text-[10px] tracking-[0.1em] text-sub md:text-[11px]">
-          <span aria-hidden="true" className="size-1.5 rounded-full bg-cyan" />
-          AVAILABLE FOR PROJECTS
-        </p>
+        <div className="tracking-[0.1em]"></div>
       </div>
 
       <nav
         aria-label="モバイルナビゲーション"
         className="border-t border-line md:hidden"
       >
-        <ul className="flex items-center justify-between overflow-x-auto px-5 py-2.5">
+        <ul className="flex items-center justify-between overflow-x-auto px-5 py-2.5 max-w-[460px]">
           {NAV_ITEMS.map((item) => (
             <li key={item.href}>
               <Link
