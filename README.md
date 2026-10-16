@@ -55,20 +55,20 @@ Gitフックにより、通常の `git push` の前に `pnpm run build` が実�
 
 ## サイト内容の編集
 
-ページの各セクションは `components/portfolio/` にあります。
+アプリケーションのソースコードは `src/` にまとめています。ページの各セクションは `src/components/portfolio/` にあります。
 
 | ファイル | 内容 |
 | --- | --- |
-| `components/portfolio/hero.tsx` | 名前、肩書、自己紹介、ヒーロー表示 |
-| `components/portfolio/about.tsx` | プロフィール、技術スタック、仕事の方針 |
-| `components/portfolio/projects.tsx` | 職務プロジェクトと成果 |
-| `components/portfolio/works.tsx` | 個人制作の一覧 |
-| `components/portfolio/contact.tsx` | 問い合わせ先 |
-| `components/portfolio/header.tsx` | ヘッダーとナビゲーション |
-| `components/portfolio/footer.tsx` | フッター |
-| `lib/site.ts` | GitHub URL、メールアドレス、ナビゲーション項目 |
-| `app/layout.tsx` | ページタイトル、説明、フォント、共通レイアウト |
-| `app/globals.css` | グローバルスタイルとデザイントークン |
+| `src/components/portfolio/hero.tsx` | 名前、肩書、自己紹介、ヒーロー表示 |
+| `src/components/portfolio/about.tsx` | プロフィール、技術スタック、仕事の方針 |
+| `src/components/portfolio/projects.tsx` | 職務プロジェクトと成果 |
+| `src/components/portfolio/works.tsx` | 個人制作の一覧 |
+| `src/components/portfolio/contact.tsx` | 問い合わせ先 |
+| `src/components/portfolio/header.tsx` | ヘッダーとナビゲーション |
+| `src/components/portfolio/footer.tsx` | フッター |
+| `src/lib/site.ts` | GitHub URL、メールアドレス、ナビゲーション項目 |
+| `src/app/layout.tsx` | ページタイトル、説明、フォント、共通レイアウト |
+| `src/app/globals.css` | グローバルスタイルとデザイントークン |
 
 画像は `public/images/` に配置し、コンポーネントから `/images/ファイル名` で参照します。
 
